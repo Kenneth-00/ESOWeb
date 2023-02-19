@@ -1,0 +1,29 @@
+.content{
+    display: block;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+  }
+  
+  th {
+    background-color: rgb(61, 61, 61);
+    border: 1px solid rgb(223, 219, 219);
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+  }
+  td {
+    border: 1px solid #dddddd;
+  }
+  td, th {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
